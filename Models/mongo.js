@@ -1,11 +1,5 @@
 const mongoose=require("mongoose")
- //mongoose.connect("mongodb+srv://kedar:Kedar1401Dummy@dummy.ev2fsh6.mongodb.net/?retryWrites=true&w=majorityy")
-// .then(()=>{
-//     console.log("mongodb connected");
-// })
-// .catch(()=>{
-//     console.log('failed');
-// })
+
 
 
 const newSchema=new mongoose.Schema({
