@@ -1,8 +1,8 @@
+require("dotenv").config()
 const express =require('express')
 const cors=require("cors")
 const mongoose=require('mongoose')
-
-mongoose.connect("mongodb+srv://kedardhule14:LqBB4CGGl7QLOWYA@databasecheck.t1kbzee.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect(process.env.MONGODB_URI)
 .then(()=>{
     console.log("mongodb connected");
 })
